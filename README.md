@@ -50,7 +50,7 @@ define styles as components inline using a CSS selector style with psuedo elemen
         ],
     });
 
-    test.renderInto(targetone);
+    test.renderInto(document.getElementById("targetone"));
 
     //add styles programatically
     test.$.styler.addStyle({
